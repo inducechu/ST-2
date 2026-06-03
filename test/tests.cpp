@@ -1,8 +1,8 @@
 // Copyright 2025 UNN-CS Team
+#include <gtest/gtest.h>
+#include <cmath>
 #include "circle.h"
 #include "task.h"
-#include <cmath>
-#include <gtest/gtest.h>
 
 const double PI_CONST = 3.14159265358979323846;
 const double DELTA_EPS = 1e-10;

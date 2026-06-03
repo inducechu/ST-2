@@ -1,16 +1,16 @@
 // Copyright 2022 UNN-CS
-#ifndef GEOMETRY_CIRCLE_CLASS_H_
-#define GEOMETRY_CIRCLE_CLASS_H_
+#ifndef INCLUDE_CIRCLE_H_
+#define INCLUDE_CIRCLE_H_
 
 #include <stdexcept>
 
 class Circle {
-private:
+ private:
   double radius;
   double ference;
   double area;
 
-public:
+ public:
   explicit Circle(double radius_val);
   void setRadius(double radius_val);
   void setFerence(double length_val);
@@ -20,4 +20,4 @@ public:
   double getArea() const;
 };
 
-#endif // GEOMETRY_CIRCLE_CLASS_H_
+#endif  // INCLUDE_CIRCLE_H_
